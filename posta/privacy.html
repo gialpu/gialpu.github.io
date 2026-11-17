@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy di Posta</title>
+<style>
+:root{--bg:#f6f6f8;--fg:#1d1d1f;--mut:#5f5f66;--card:#fff;--line:#e3e3e8;--acc:#0a7cff}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1c1f;--fg:#ececf0;--mut:#a3a3ad;--card:#26262a;--line:#36363c;--acc:#4ba3ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "Segoe UI",system-ui,-apple-system,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 16px}
+h1{font-size:30px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 28px}
+h2{font-size:18px;margin:28px 0 6px}a{color:var(--acc)}footer{color:var(--mut);font-size:14px;margin-top:32px}
+</style>
+</head>
+<body>
+<main>
+<h1>Informativa sulla privacy di Posta</h1>
+<p class="sub">Ultimo aggiornamento: 17 novembre 2026</p>
+
+<h2>In breve</h2>
+<p>Posta è un'app desktop che funziona interamente sul tuo computer. Non ha un server proprio: lo sviluppatore non raccoglie, non riceve e non vede la tua posta né altri tuoi dati.</p>
+
+<h2>Dati a cui l'app accede</h2>
+<p>Con il tuo consenso Posta accede alla casella di posta degli account che colleghi, per mostrarti i messaggi, cercarli, inviarli e organizzarli. Per Gmail usa l'accesso OAuth di Google con l'ambito <code>https://mail.google.com/</code>, che serve a leggere e inviare la posta tramite IMAP e SMTP.</p>
+
+<h2>Dove sono conservati</h2>
+<p>Messaggi, contatti e impostazioni sono salvati solo sul tuo computer. I token di accesso e le eventuali password sono cifrati con la protezione dati di Windows. Posta comunica solo con i server di posta dei tuoi account (per esempio i server di Google) e non trasmette i dati a terzi.</p>
+
+<h2>Funzione facoltativa: ricerca con Claude</h2>
+<p>Se la attivi tu nelle impostazioni, inserendo la tua chiave API, a ogni ricerca oggetto, mittente, data e le prime righe dei risultati migliori vengono inviati ad Anthropic per migliorare la ricerca. È spenta per impostazione predefinita.</p>
+
+<h2>Uso dei dati Google</h2>
+<p>L'uso e il trasferimento ad altre app delle informazioni ricevute dalle API di Google rispettano le <a href="https://developers.google.com/terms/api-services-user-data-policy">Norme sui dati utente dei servizi API di Google</a>, inclusi i requisiti di uso limitato. I dati di Gmail non vengono usati per pubblicità né venduti.</p>
+
+<h2>Come cancellare i dati</h2>
+<p>Rimuovi l'account da Posta; per eliminare tutti i dati locali, disinstalla l'app e cancella la cartella <code>%APPDATA%\Posta</code>. Puoi anche revocare l'accesso in <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contatti</h2>
+<p>Per domande apri una segnalazione su <a href="https://github.com/gialpu/gialpu.github.io/issues">GitHub</a>.</p>
+
+<footer><a href="./">Posta</a></footer>
+</main>
+</body>
+</html>
